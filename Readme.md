@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/HideColumnCellValues/Default.aspx) (VB: [Default.aspx.vb](./VB/HideColumnCellValues/Default.aspx.vb))
+* [Default.aspx](./CS/HideColumnCellValues/Default.aspx) (VB: [Default.aspx](./VB/HideColumnCellValues/Default.aspx))
 * [Default.aspx.cs](./CS/HideColumnCellValues/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/HideColumnCellValues/Default.aspx.vb))
 <!-- default file list end -->
 # How to hide a cell value
