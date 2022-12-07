@@ -28,7 +28,7 @@ namespace HideColumnCellValues {
             return table;
         }
 
-        protected void ASPxGridView1_HtmlDataCellPrepared(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewTableDataCellEventArgs e) {
+        protected void ASPxGridView1_HtmlDataCellPrepared(object sender, DevExpress.Web.ASPxGridViewTableDataCellEventArgs e) {
             if(e.DataColumn.FieldName == "Value") {
                 object isVisible = ASPxGridView1.GetRowValues(e.VisibleIndex, "IsVisible");
                 if(!true.Equals(isVisible))

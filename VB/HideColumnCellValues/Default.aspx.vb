@@ -30,7 +30,7 @@ Namespace HideColumnCellValues
 			Return table
 		End Function
 
-		Protected Sub ASPxGridView1_HtmlDataCellPrepared(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewTableDataCellEventArgs)
+		Protected Sub ASPxGridView1_HtmlDataCellPrepared(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewTableDataCellEventArgs)
 			If e.DataColumn.FieldName = "Value" Then
 				Dim isVisible As Object = ASPxGridView1.GetRowValues(e.VisibleIndex, "IsVisible")
 				If (Not True.Equals(isVisible)) Then
